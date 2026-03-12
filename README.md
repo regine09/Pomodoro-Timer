@@ -1,12 +1,17 @@
 <h1 align="center"><b>POMODORO Timer Kit Documentation</b></h1>
 
 <h2><b>Introduction</b></h2>
+<p align="justify">
 The POMODORO Timer Kit is an ESP32-based time management device designed to help students improve focus and study habits using the Pomodoro Technique. It was developed to address common student challenges such as procrastination, difficulty maintaining attention, and inefficient study routines, which are often worsened by distractions from digital devices. By providing a dedicated physical timer that guides users through structured work intervals and break periods, the device supports better concentration and productivity. It integrates simple hardware components—including an ESP32 microcontroller, OLED display, buttons, and a buzzer—to create an easy-to-use tool for managing study sessions effectively.
+</p>
 
 <h2><b>Importance</b></h2>
+<p align="justify">
 The POMODORO Timer Kit serves as a practical tool that helps students organize their study sessions in a consistent and manageable way by guiding them through timed focus periods and scheduled breaks, promoting discipline and a more structured approach to studying. In addition to improving productivity, the kit also introduces learners to basic concepts in electronics and embedded systems, as users can assemble the device themselves and gain hands-on experience connecting theoretical knowledge with practical technology applications.
+</p>
 
 <h2><b>Benefits</b></h2>
+<p align="justify">
 The POMODORO Timer Kit offers several benefits that help students improve focus, manage their time more effectively, and develop healthier study habits.
 
 - Improves Focus – Minimizes distractions by encouraging users to concentrate on one task during dedicated study intervals.
@@ -14,8 +19,10 @@ The POMODORO Timer Kit offers several benefits that help students improve focus,
 - Enhances Productivity – Uses structured work intervals that make tasks more manageable and easier to complete.
 - Encourages Time Awareness – Helps users become more conscious of how they spend their time when completing tasks.
 - Supports Work–Life Balance – Promotes a balanced routine by combining focused work periods with scheduled breaks.
+</p>
 
 <h2><b>Features</b></h2>
+<p align="justify">
 The Pomodoro Timer Kit is a compact productivity device designed to help users easily manage their work and break cycles.
 
 Key Features
@@ -47,9 +54,11 @@ Key Features
 
 8. **Easy-to-Use Controls**  
    Physical buttons allow users to start the timer or interact with the device quickly.
+</p>
 
 <h2><b>Operating Manual</b></h2>
-
+<p align="justify">
+   
 **Opening the Pomodoro Kit and Dashboard**
 
 1. Plug a **USB Type-C cable** into the Pomodoro Kit and connect it to a power source.
@@ -90,9 +99,11 @@ Key Features
    - Use the **Back button** anytime to return to the previous page.
 
 9. Press the **physical Start/Pause button** on the Pomodoro Kit to begin the timer.
+</p>
 
 <h2><b>FAQ / Basic Troubleshooting</b></h2>
-
+<p align="justify">
+   
 1. The device does not turn on
     - Check if the **USB Type-C cable** is properly connected
     - Ensure the **power source** is working
@@ -115,3 +126,20 @@ Key Features
 5. No sound from the buzzer
     - Check if the **timer session has fully ended**
     - Restart the device
+</p>
+
+<h2><b>Updating of firmware via TRIOE Web IDE</b></h2>
+<p align="justify">
+The Pomodoro Timer firmware can be updated using the TRIOE Web IDE, which allows users to upload new programs to the device through a web interface.
+
+**Steps to Update the Firmware**
+1. Connect the Pomodoro Timer to your computer using the USB Type-C cable.
+2. Open the TRIOE Web IDE in your browser.
+3. Select the correct device port connected to the timer.
+4. Upload or paste  the updated firmware.
+5. Click Compile/Flash to start the firmware update.
+6. Wait until the upload process finishes.
+7. Restart the device after the update.
+   
+The Pomodoro Timer will now run the new firmware version.
+</p>
